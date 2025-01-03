@@ -1,9 +1,9 @@
 {
     "name": "remote-mix-node",
-    "module": "index.ts",
+    "module": "Node.ts",
     "type": "module",
     "scripts": {
-        "node": "bun run --watch Node.ts"
+        "node": "bun --watch run Node.ts"
     },
     "devDependencies": {
         "@types/bun": "latest"
