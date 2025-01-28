@@ -1,6 +1,6 @@
 {
     "ch1": {
-        "name": "Channel CH1",
+        "name": "CH1",
         "id": "ch1",
         "type": "CH",
         "master": {
@@ -51,7 +51,7 @@
         "sendsTo": {}
     },
     "ch2": {
-        "name": "Channel CH2",
+        "name": "CH2",
         "id": "ch2",
         "type": "CH",
         "master": {
@@ -102,7 +102,7 @@
         "sendsTo": {}
     },
     "ch3": {
-        "name": "Channel CH3",
+        "name": "CH3",
         "id": "ch3",
         "type": "CH",
         "master": {
@@ -153,7 +153,7 @@
         "sendsTo": {}
     },
     "ch4": {
-        "name": "Channel CH4",
+        "name": "CH4",
         "id": "ch4",
         "type": "CH",
         "master": {
@@ -204,7 +204,7 @@
         "sendsTo": {}
     },
     "ch5": {
-        "name": "Channel CH5",
+        "name": "CH5",
         "id": "ch5",
         "type": "CH",
         "master": {
@@ -255,7 +255,7 @@
         "sendsTo": {}
     },
     "ch6": {
-        "name": "Channel CH6",
+        "name": "CH6",
         "id": "ch6",
         "type": "CH",
         "master": {
@@ -306,7 +306,7 @@
         "sendsTo": {}
     },
     "ch7": {
-        "name": "Channel CH7",
+        "name": "CH7",
         "id": "ch7",
         "type": "CH",
         "master": {
@@ -357,7 +357,7 @@
         "sendsTo": {}
     },
     "ch8": {
-        "name": "Channel CH8",
+        "name": "CH8",
         "id": "ch8",
         "type": "CH",
         "master": {
@@ -408,7 +408,7 @@
         "sendsTo": {}
     },
     "ch9": {
-        "name": "Channel CH9",
+        "name": "CH9",
         "id": "ch9",
         "type": "CH",
         "master": {
@@ -459,7 +459,7 @@
         "sendsTo": {}
     },
     "ch10": {
-        "name": "Channel CH10",
+        "name": "CH10",
         "id": "ch10",
         "type": "CH",
         "master": {
@@ -510,7 +510,7 @@
         "sendsTo": {}
     },
     "ch11": {
-        "name": "Channel CH11",
+        "name": "CH11",
         "id": "ch11",
         "type": "CH",
         "master": {
@@ -561,7 +561,7 @@
         "sendsTo": {}
     },
     "ch12": {
-        "name": "Channel CH12",
+        "name": "CH12",
         "id": "ch12",
         "type": "CH",
         "master": {
@@ -612,7 +612,7 @@
         "sendsTo": {}
     },
     "ch13": {
-        "name": "Channel CH13",
+        "name": "CH13",
         "id": "ch13",
         "type": "CH",
         "master": {
@@ -663,7 +663,7 @@
         "sendsTo": {}
     },
     "ch14": {
-        "name": "Channel CH14",
+        "name": "CH14",
         "id": "ch14",
         "type": "CH",
         "master": {
@@ -714,7 +714,7 @@
         "sendsTo": {}
     },
     "ch15": {
-        "name": "Channel CH15",
+        "name": "CH15",
         "id": "ch15",
         "type": "CH",
         "master": {
@@ -765,7 +765,7 @@
         "sendsTo": {}
     },
     "ch16": {
-        "name": "Channel CH16",
+        "name": "CH16",
         "id": "ch16",
         "type": "CH",
         "master": {
@@ -816,7 +816,7 @@
         "sendsTo": {}
     },
     "ch17": {
-        "name": "Channel CH17",
+        "name": "CH17",
         "id": "ch17",
         "type": "CH",
         "master": {
@@ -867,7 +867,7 @@
         "sendsTo": {}
     },
     "ch18": {
-        "name": "Channel CH18",
+        "name": "CH18",
         "id": "ch18",
         "type": "CH",
         "master": {
@@ -918,7 +918,7 @@
         "sendsTo": {}
     },
     "ch19": {
-        "name": "Channel CH19",
+        "name": "CH19",
         "id": "ch19",
         "type": "CH",
         "master": {
@@ -969,7 +969,7 @@
         "sendsTo": {}
     },
     "ch20": {
-        "name": "Channel CH20",
+        "name": "CH20",
         "id": "ch20",
         "type": "CH",
         "master": {
@@ -1020,7 +1020,7 @@
         "sendsTo": {}
     },
     "ch21": {
-        "name": "Channel CH21",
+        "name": "CH21",
         "id": "ch21",
         "type": "CH",
         "master": {
@@ -1071,7 +1071,7 @@
         "sendsTo": {}
     },
     "ch22": {
-        "name": "Channel CH22",
+        "name": "CH22",
         "id": "ch22",
         "type": "CH",
         "master": {
@@ -1122,7 +1122,7 @@
         "sendsTo": {}
     },
     "ch23": {
-        "name": "Channel CH23",
+        "name": "CH23",
         "id": "ch23",
         "type": "CH",
         "master": {
@@ -1173,7 +1173,7 @@
         "sendsTo": {}
     },
     "ch24": {
-        "name": "Channel CH24",
+        "name": "CH24",
         "id": "ch24",
         "type": "CH",
         "master": {
@@ -1224,7 +1224,7 @@
         "sendsTo": {}
     },
     "ch25": {
-        "name": "Channel CH25",
+        "name": "CH25",
         "id": "ch25",
         "type": "CH",
         "master": {
@@ -1275,7 +1275,7 @@
         "sendsTo": {}
     },
     "ch26": {
-        "name": "Channel CH26",
+        "name": "CH26",
         "id": "ch26",
         "type": "CH",
         "master": {
@@ -1326,7 +1326,7 @@
         "sendsTo": {}
     },
     "ch27": {
-        "name": "Channel CH27",
+        "name": "CH27",
         "id": "ch27",
         "type": "CH",
         "master": {
@@ -1377,7 +1377,7 @@
         "sendsTo": {}
     },
     "ch28": {
-        "name": "Channel CH28",
+        "name": "CH28",
         "id": "ch28",
         "type": "CH",
         "master": {
@@ -1428,7 +1428,7 @@
         "sendsTo": {}
     },
     "ch29": {
-        "name": "Channel CH29",
+        "name": "CH29",
         "id": "ch29",
         "type": "CH",
         "master": {
@@ -1479,7 +1479,7 @@
         "sendsTo": {}
     },
     "ch30": {
-        "name": "Channel CH30",
+        "name": "CH30",
         "id": "ch30",
         "type": "CH",
         "master": {
@@ -1530,7 +1530,7 @@
         "sendsTo": {}
     },
     "ch31": {
-        "name": "Channel CH31",
+        "name": "CH31",
         "id": "ch31",
         "type": "CH",
         "master": {
@@ -1581,7 +1581,7 @@
         "sendsTo": {}
     },
     "ch32": {
-        "name": "Channel CH32",
+        "name": "CH32",
         "id": "ch32",
         "type": "CH",
         "master": {
@@ -1632,7 +1632,7 @@
         "sendsTo": {}
     },
     "ch33": {
-        "name": "Channel CH33",
+        "name": "CH33",
         "id": "ch33",
         "type": "CH",
         "master": {
@@ -1683,7 +1683,7 @@
         "sendsTo": {}
     },
     "ch34": {
-        "name": "Channel CH34",
+        "name": "CH34",
         "id": "ch34",
         "type": "CH",
         "master": {
@@ -1734,7 +1734,7 @@
         "sendsTo": {}
     },
     "ch35": {
-        "name": "Channel CH35",
+        "name": "CH35",
         "id": "ch35",
         "type": "CH",
         "master": {
@@ -1785,7 +1785,7 @@
         "sendsTo": {}
     },
     "ch36": {
-        "name": "Channel CH36",
+        "name": "CH36",
         "id": "ch36",
         "type": "CH",
         "master": {
@@ -1836,7 +1836,7 @@
         "sendsTo": {}
     },
     "ch37": {
-        "name": "Channel CH37",
+        "name": "CH37",
         "id": "ch37",
         "type": "CH",
         "master": {
@@ -1887,7 +1887,7 @@
         "sendsTo": {}
     },
     "ch38": {
-        "name": "Channel CH38",
+        "name": "CH38",
         "id": "ch38",
         "type": "CH",
         "master": {
@@ -1938,7 +1938,7 @@
         "sendsTo": {}
     },
     "ch39": {
-        "name": "Channel CH39",
+        "name": "CH39",
         "id": "ch39",
         "type": "CH",
         "master": {
@@ -1989,7 +1989,7 @@
         "sendsTo": {}
     },
     "ch40": {
-        "name": "Channel CH40",
+        "name": "CH40",
         "id": "ch40",
         "type": "CH",
         "master": {
@@ -2040,7 +2040,7 @@
         "sendsTo": {}
     },
     "ch41": {
-        "name": "Channel CH41",
+        "name": "CH41",
         "id": "ch41",
         "type": "CH",
         "master": {
@@ -2091,7 +2091,7 @@
         "sendsTo": {}
     },
     "ch42": {
-        "name": "Channel CH42",
+        "name": "CH42",
         "id": "ch42",
         "type": "CH",
         "master": {
@@ -2142,7 +2142,7 @@
         "sendsTo": {}
     },
     "ch43": {
-        "name": "Channel CH43",
+        "name": "CH43",
         "id": "ch43",
         "type": "CH",
         "master": {
@@ -2193,7 +2193,7 @@
         "sendsTo": {}
     },
     "ch44": {
-        "name": "Channel CH44",
+        "name": "CH44",
         "id": "ch44",
         "type": "CH",
         "master": {
@@ -2244,7 +2244,7 @@
         "sendsTo": {}
     },
     "ch45": {
-        "name": "Channel CH45",
+        "name": "CH45",
         "id": "ch45",
         "type": "CH",
         "master": {
@@ -2295,7 +2295,7 @@
         "sendsTo": {}
     },
     "ch46": {
-        "name": "Channel CH46",
+        "name": "CH46",
         "id": "ch46",
         "type": "CH",
         "master": {
@@ -2346,7 +2346,7 @@
         "sendsTo": {}
     },
     "ch47": {
-        "name": "Channel CH47",
+        "name": "CH47",
         "id": "ch47",
         "type": "CH",
         "master": {
@@ -2397,7 +2397,7 @@
         "sendsTo": {}
     },
     "ch48": {
-        "name": "Channel CH48",
+        "name": "CH48",
         "id": "ch48",
         "type": "CH",
         "master": {
@@ -2448,7 +2448,7 @@
         "sendsTo": {}
     },
     "ch49": {
-        "name": "Channel CH49",
+        "name": "CH49",
         "id": "ch49",
         "type": "CH",
         "master": {
@@ -2499,7 +2499,7 @@
         "sendsTo": {}
     },
     "ch50": {
-        "name": "Channel CH50",
+        "name": "CH50",
         "id": "ch50",
         "type": "CH",
         "master": {
@@ -2550,7 +2550,7 @@
         "sendsTo": {}
     },
     "ch51": {
-        "name": "Channel CH51",
+        "name": "CH51",
         "id": "ch51",
         "type": "CH",
         "master": {
@@ -2601,7 +2601,7 @@
         "sendsTo": {}
     },
     "ch52": {
-        "name": "Channel CH52",
+        "name": "CH52",
         "id": "ch52",
         "type": "CH",
         "master": {
@@ -2652,7 +2652,7 @@
         "sendsTo": {}
     },
     "ch53": {
-        "name": "Channel CH53",
+        "name": "CH53",
         "id": "ch53",
         "type": "CH",
         "master": {
@@ -2703,7 +2703,7 @@
         "sendsTo": {}
     },
     "ch54": {
-        "name": "Channel CH54",
+        "name": "CH54",
         "id": "ch54",
         "type": "CH",
         "master": {
@@ -2754,7 +2754,7 @@
         "sendsTo": {}
     },
     "sr1": {
-        "name": "Channel SR1",
+        "name": "SR1",
         "id": "sr1",
         "type": "CH",
         "master": {
@@ -2805,7 +2805,7 @@
         "sendsTo": {}
     },
     "sr2": {
-        "name": "Channel SR2",
+        "name": "SR2",
         "id": "sr2",
         "type": "CH",
         "master": {
@@ -2856,7 +2856,7 @@
         "sendsTo": {}
     },
     "fxrt1": {
-        "name": "Channel FXRT1",
+        "name": "FXRT1",
         "id": "fxrt1",
         "type": "CH",
         "master": {
@@ -2907,7 +2907,7 @@
         "sendsTo": {}
     },
     "fxrt2": {
-        "name": "Channel FXRT2",
+        "name": "FXRT2",
         "id": "fxrt2",
         "type": "CH",
         "master": {
@@ -2958,7 +2958,7 @@
         "sendsTo": {}
     },
     "fxrt3": {
-        "name": "Channel FXRT3",
+        "name": "FXRT3",
         "id": "fxrt3",
         "type": "CH",
         "master": {
@@ -3009,7 +3009,7 @@
         "sendsTo": {}
     },
     "fxrt4": {
-        "name": "Channel FXRT4",
+        "name": "FXRT4",
         "id": "fxrt4",
         "type": "CH",
         "master": {

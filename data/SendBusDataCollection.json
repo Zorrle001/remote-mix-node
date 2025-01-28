@@ -1,0 +1,451 @@
+{
+    "lr": {
+        "name": "Main LR",
+        "id": "lr",
+        "type": "lr",
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "pan": 0.5
+        },
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "mono": {
+        "name": "Mono Bus",
+        "id": "mono",
+        "type": "mono",
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0
+        },
+        "sendsTo": {}
+    },
+    "mix1": {
+        "name": "Mix mix1",
+        "id": "mix1",
+        "type": "mix",
+        "stereo": false,
+        "postFader": false,
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "hpf": {},
+            "phaseInversion": false,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0,
+            "pan": 0.5,
+            "grandMasterSends": {
+                "lr": true,
+                "mono": true
+            }
+        },
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "mix2": {
+        "name": "Mix mix2",
+        "id": "mix2",
+        "type": "mix",
+        "stereo": false,
+        "postFader": false,
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "hpf": {},
+            "phaseInversion": false,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0,
+            "pan": 0.5,
+            "grandMasterSends": {
+                "lr": true,
+                "mono": true
+            }
+        },
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "mix3": {
+        "name": "Mix mix3",
+        "id": "mix3",
+        "type": "mix",
+        "stereo": false,
+        "postFader": false,
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "hpf": {},
+            "phaseInversion": false,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0,
+            "pan": 0.5,
+            "grandMasterSends": {
+                "lr": true,
+                "mono": true
+            }
+        },
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "mix4": {
+        "name": "Mix mix4",
+        "id": "mix4",
+        "type": "mix",
+        "stereo": false,
+        "postFader": false,
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "hpf": {},
+            "phaseInversion": false,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0,
+            "pan": 0.5,
+            "grandMasterSends": {
+                "lr": true,
+                "mono": true
+            }
+        },
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "mix5": {
+        "name": "Mix mix5",
+        "id": "mix5",
+        "type": "mix",
+        "stereo": false,
+        "postFader": false,
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "hpf": {},
+            "phaseInversion": false,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0,
+            "pan": 0.5,
+            "grandMasterSends": {
+                "lr": true,
+                "mono": true
+            }
+        },
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "mix6": {
+        "name": "Mix mix6",
+        "id": "mix6",
+        "type": "mix",
+        "stereo": false,
+        "postFader": false,
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "hpf": {},
+            "phaseInversion": false,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0,
+            "pan": 0.5,
+            "grandMasterSends": {
+                "lr": true,
+                "mono": true
+            }
+        },
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "mix7": {
+        "name": "Mix mix7",
+        "id": "mix7",
+        "type": "mix",
+        "stereo": false,
+        "postFader": false,
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "hpf": {},
+            "phaseInversion": false,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0,
+            "pan": 0.5,
+            "grandMasterSends": {
+                "lr": true,
+                "mono": true
+            }
+        },
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "mix8": {
+        "name": "Mix mix8",
+        "id": "mix8",
+        "type": "mix",
+        "stereo": false,
+        "postFader": false,
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "hpf": {},
+            "phaseInversion": false,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0,
+            "pan": 0.5,
+            "grandMasterSends": {
+                "lr": true,
+                "mono": true
+            }
+        },
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "mix9": {
+        "name": "Mix mix9",
+        "id": "mix9",
+        "type": "mix",
+        "stereo": false,
+        "postFader": false,
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "hpf": {},
+            "phaseInversion": false,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0,
+            "pan": 0.5,
+            "grandMasterSends": {
+                "lr": true,
+                "mono": true
+            }
+        },
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "mix10": {
+        "name": "Mix mix10",
+        "id": "mix10",
+        "type": "mix",
+        "stereo": false,
+        "postFader": false,
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "hpf": {},
+            "phaseInversion": false,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0,
+            "pan": 0.5,
+            "grandMasterSends": {
+                "lr": true,
+                "mono": true
+            }
+        },
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "mix11": {
+        "name": "Mix mix11",
+        "id": "mix11",
+        "type": "mix",
+        "stereo": false,
+        "postFader": false,
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "hpf": {},
+            "phaseInversion": false,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0,
+            "pan": 0.5,
+            "grandMasterSends": {
+                "lr": true,
+                "mono": true
+            }
+        },
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "mix12": {
+        "name": "Mix mix12",
+        "id": "mix12",
+        "type": "mix",
+        "stereo": false,
+        "postFader": false,
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "hpf": {},
+            "phaseInversion": false,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0,
+            "pan": 0.5,
+            "grandMasterSends": {
+                "lr": true,
+                "mono": true
+            }
+        },
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "mix13": {
+        "name": "Mix mix13",
+        "id": "mix13",
+        "type": "mix",
+        "stereo": false,
+        "postFader": false,
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "hpf": {},
+            "phaseInversion": false,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0,
+            "pan": 0.5,
+            "grandMasterSends": {
+                "lr": true,
+                "mono": true
+            }
+        },
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "mix14": {
+        "name": "Mix mix14",
+        "id": "mix14",
+        "type": "mix",
+        "stereo": false,
+        "postFader": false,
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "hpf": {},
+            "phaseInversion": false,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0,
+            "pan": 0.5,
+            "grandMasterSends": {
+                "lr": true,
+                "mono": true
+            }
+        },
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "mtx1": {
+        "name": "Matrix mtx1",
+        "id": "mtx1",
+        "type": "mtx",
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0
+        },
+        "sendsFrom": {}
+    },
+    "mtx2": {
+        "name": "Matrix mtx2",
+        "id": "mtx2",
+        "type": "mtx",
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0
+        },
+        "sendsFrom": {}
+    },
+    "mtx3": {
+        "name": "Matrix mtx3",
+        "id": "mtx3",
+        "type": "mtx",
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0
+        },
+        "sendsFrom": {}
+    },
+    "mtx4": {
+        "name": "Matrix mtx4",
+        "id": "mtx4",
+        "type": "mtx",
+        "master": {
+            "enabled": true,
+            "value": 1,
+            "eq": {},
+            "dyn2": {},
+            "graphicEQ": {},
+            "delay": 0
+        },
+        "sendsFrom": {}
+    },
+    "fx1": {
+        "name": "FX fx1",
+        "id": "fx1",
+        "type": "fx",
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "fx2": {
+        "name": "FX fx2",
+        "id": "fx2",
+        "type": "fx",
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "fx3": {
+        "name": "FX fx3",
+        "id": "fx3",
+        "type": "fx",
+        "sendsFrom": {},
+        "sendsTo": {}
+    },
+    "fx4": {
+        "name": "FX fx4",
+        "id": "fx4",
+        "type": "fx",
+        "sendsFrom": {},
+        "sendsTo": {}
+    }
+}

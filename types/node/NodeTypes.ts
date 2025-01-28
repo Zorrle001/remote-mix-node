@@ -12,6 +12,7 @@ export type MixerRouting = {
     uuid: string;
     autoConnect: boolean;
     connected?: boolean;
+    localSimulation?: boolean;
 };
 
 export enum NodeMessageType {
@@ -20,6 +21,7 @@ export enum NodeMessageType {
     UnsubscribeMixerData = "UnsubscribeMixerData",
     MixerDataUpdate = "MixerDataUpdate",
     GetMixerRoutings = "GetMixerRoutings",
+    SessionData = "SessionData",
 }
 
 export type NodeMessage = {

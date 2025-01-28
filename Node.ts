@@ -1,4 +1,8 @@
-import type { InputChannelDataCollection } from "./types/InputChannelTypes";
+import lodash from "lodash";
+import {
+    InputChannelID,
+    type InputChannelDataCollection,
+} from "./types/InputChannelTypes";
 import {
     MixerModel,
     MixerProtocol,
@@ -16,6 +20,8 @@ const InputChannelDataCollections = new Map<
     InputChannelDataCollection
 >();
 
+const SendBusDataCollections = new Map<string, SendBusDataCollection>();
+
 // PUT IN FILE
 const MixerRoutings: MixerRouting[] = [
     {
@@ -24,9 +30,10 @@ const MixerRoutings: MixerRouting[] = [
         protocol: MixerProtocol.HiQNet,
         model: MixerModel.SoundcraftSiExpression3,
         port: 32000,
-        uuid: crypto.randomUUID(),
+        uuid: "4acd33e1-1e0d-43cb-b691-e94b34fc12de",
         autoConnect: true,
         connected: false,
+        localSimulation: true,
     },
     {
         ip: "127.0.0.0",
@@ -35,8 +42,97 @@ const MixerRoutings: MixerRouting[] = [
         model: MixerModel.YamahaDM3,
         port: 80,
         uuid: crypto.randomUUID(),
-        autoConnect: false,
+        autoConnect: true,
         connected: false,
+    },
+];
+
+const Sessions = [
+    {
+        uuid: "default-session",
+        name: "Default Session",
+        inputChannelBanks: [
+            [
+                InputChannelID.CH1,
+                InputChannelID.CH2,
+                InputChannelID.CH3,
+                InputChannelID.CH4,
+                InputChannelID.CH5,
+                InputChannelID.CH6,
+                InputChannelID.CH7,
+                InputChannelID.CH8,
+            ],
+            [
+                InputChannelID.CH9,
+                InputChannelID.CH10,
+                InputChannelID.CH11,
+                InputChannelID.CH12,
+                InputChannelID.CH13,
+                InputChannelID.CH14,
+                InputChannelID.CH15,
+                InputChannelID.CH16,
+            ],
+            [
+                InputChannelID.CH17,
+                InputChannelID.CH18,
+                InputChannelID.CH19,
+                InputChannelID.CH20,
+                InputChannelID.CH21,
+                InputChannelID.CH22,
+                InputChannelID.CH23,
+                InputChannelID.CH24,
+            ],
+            [
+                InputChannelID.CH25,
+                InputChannelID.CH26,
+                InputChannelID.CH27,
+                InputChannelID.CH28,
+                InputChannelID.CH29,
+                InputChannelID.CH30,
+                InputChannelID.CH31,
+                InputChannelID.CH32,
+            ],
+            [
+                InputChannelID.CH33,
+                InputChannelID.CH34,
+                InputChannelID.CH35,
+                InputChannelID.CH36,
+                InputChannelID.CH37,
+                InputChannelID.CH38,
+                InputChannelID.CH39,
+                InputChannelID.CH40,
+            ],
+            [
+                InputChannelID.CH41,
+                InputChannelID.CH42,
+                InputChannelID.CH43,
+                InputChannelID.CH44,
+                InputChannelID.CH45,
+                InputChannelID.CH46,
+                InputChannelID.CH47,
+                InputChannelID.CH48,
+            ],
+            [
+                InputChannelID.CH49,
+                InputChannelID.CH50,
+                InputChannelID.CH51,
+                InputChannelID.CH52,
+                InputChannelID.CH53,
+                InputChannelID.CH54,
+                null,
+                null,
+            ],
+            [
+                InputChannelID.ST1,
+                InputChannelID.ST2,
+                InputChannelID.FXRT1,
+                InputChannelID.FXRT2,
+                InputChannelID.FXRT3,
+                InputChannelID.FXRT4,
+                null,
+                null,
+            ],
+        ],
     },
 ];
 
@@ -60,6 +156,13 @@ const server = Bun.serve({
                 JSON.stringify({
                     type: NodeMessageType.GetMixerRoutings,
                     data: MixerRoutings,
+                } as NodeMessage)
+            );
+
+            ws.send(
+                JSON.stringify({
+                    type: NodeMessageType.SessionData,
+                    data: Sessions.find((s) => s.uuid === "default-session"),
                 } as NodeMessage)
             );
         },
@@ -96,13 +199,17 @@ const server = Bun.serve({
                     const InputChannelDataCollection =
                         InputChannelDataCollections.get(uuid);
 
+                    const SendBusDataCollection =
+                        SendBusDataCollections.get(uuid);
+
                     ws.send(
                         JSON.stringify({
                             type: NodeMessageType.GetAndSubscribeMixerData,
                             data: {
+                                uuid: uuid,
                                 inputChannelDataCollection:
                                     InputChannelDataCollection,
-                                sendBusDataCollection: null,
+                                sendBusDataCollection: SendBusDataCollection,
                             },
                         } as NodeMessage)
                     );
@@ -115,7 +222,10 @@ const server = Bun.serve({
                 } else if (msg.type === NodeMessageType.MixerDataUpdate) {
                     const uuid = msg.data.uuid;
 
-                    if (ConnectedMixers.has(uuid) === false) {
+                    if (
+                        ConnectedMixers.has(uuid) === false ||
+                        ConnectedMixers.get(uuid) == undefined
+                    ) {
                         ws.send(
                             JSON.stringify({
                                 type: NodeMessageType.MixerDataUpdate,
@@ -132,20 +242,47 @@ const server = Bun.serve({
                     ws.publish(`MixerDataUpdate-${uuid}`, JSON.stringify(msg));
 
                     // MERGE IN NODE STATE
+                    /*const prevInputChannelDataCollection =
+                        msg.data.inputChannelDataCollection;*/
+
                     const prevInputChannelDataCollection =
-                        msg.data.inputChannelDataCollection;
+                        InputChannelDataCollections.get(uuid);
+                    const prevSendBusDataCollection =
+                        SendBusDataCollections.get(uuid);
 
                     const inputChannelDataCollectionPartial: Partial<InputChannelDataCollection> =
                         msg.data.inputChannelDataCollectionPartial;
                     const sendBusDataCollectionPartial: Partial<SendBusDataCollection> =
                         msg.data.sendBusDataCollectionPartial;
 
-                    const mergedInputChannelDataCollection =
-                        {} as InputChannelDataCollection;
+                    const mergedInputChannelDataCollection: InputChannelDataCollection =
+                        lodash.merge(
+                            prevInputChannelDataCollection,
+                            inputChannelDataCollectionPartial
+                        );
+
+                    const mergedSendBusDataCollection = lodash.merge(
+                        prevSendBusDataCollection,
+                        sendBusDataCollectionPartial
+                    );
 
                     InputChannelDataCollections.set(
                         uuid,
                         mergedInputChannelDataCollection
+                    );
+
+                    SendBusDataCollections.set(
+                        uuid,
+                        mergedSendBusDataCollection
+                    );
+
+                    // CANT BE UNDEFINED BECAUSE OF CHECK ABOVE
+                    const mixer = ConnectedMixers.get(uuid) as MixerRouting;
+
+                    updateMixerInputChannelCollection(
+                        mixer,
+                        mergedInputChannelDataCollection,
+                        inputChannelDataCollectionPartial
                     );
 
                     // NO RESPONSE
@@ -172,6 +309,14 @@ for (const mixer of MixerRoutings) {
     if (!mixer.autoConnect) {
         continue;
     }
+    if (!mixer.localSimulation) {
+        console.error(
+            mixer.name,
+            "\n" + mixer.uuid,
+            "\nNon-simulated consoles are not yet supported - No connection established!"
+        );
+        continue;
+    }
     mixer.connected = true;
     ConnectedMixers.set(mixer.uuid, mixer);
 }
@@ -179,7 +324,9 @@ for (const mixer of MixerRoutings) {
 
 // 3. Download Mixer Data
 for (const mixer of ConnectedMixers.values()) {
-    const file = Bun.file("data/InputChannelDataCollection.json");
+    const file = Bun.file(
+        `data/inputChannelDataCollections/${mixer.uuid}.json`
+    );
     const InputChannelDataCollection: InputChannelDataCollection = await file
         .json()
         .catch((err) => {
@@ -192,6 +339,20 @@ for (const mixer of ConnectedMixers.values()) {
             "Mixer " + mixer.uuid + " InputChannelDataCollection downloaded"
         );
     }
+
+    const file2 = Bun.file(`data/sendBusDataCollections/${mixer.uuid}.json`);
+    const SendBusDataCollection: SendBusDataCollection = await file2
+        .json()
+        .catch((err) => {
+            console.error("Mixer SendBusDataCollection download failed");
+            return undefined;
+        });
+    if (SendBusDataCollection) {
+        SendBusDataCollections.set(mixer.uuid, SendBusDataCollection);
+        console.log(
+            "Mixer " + mixer.uuid + " SendBusDataCollection downloaded"
+        );
+    }
 }
 
 // 4. Send Mixer Updates to WebSocket Clients
@@ -202,3 +363,23 @@ server.publish(
         data: Array.from(ConnectedMixers.values()),
     } as NodeMessage)
 );
+
+function updateMixerInputChannelCollection(
+    mixer: MixerRouting,
+    newColl: InputChannelDataCollection,
+    partialColl: Partial<InputChannelDataCollection>
+) {
+    if (!mixer.localSimulation) {
+        console.error(
+            mixer.name,
+            "\n" + mixer.uuid,
+            "\nNon-simulated console InputChannelCollection Updates are not yet supported"
+        );
+        return;
+    }
+
+    Bun.write(
+        `data/inputChannelDataCollections/${mixer.uuid}.json`,
+        JSON.stringify(newColl, null, "\t")
+    );
+}

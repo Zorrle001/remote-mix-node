@@ -1,0 +1,3062 @@
+{
+	"ch1": {
+		"name": "CH1",
+		"id": "ch1",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 9,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch2": {
+		"name": "CH2",
+		"id": "ch2",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch3": {
+		"name": "CH3",
+		"id": "ch3",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": -5,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch4": {
+		"name": "CH4",
+		"id": "ch4",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0.75,
+			"gain": -5,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch5": {
+		"name": "CH5",
+		"id": "ch5",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0.8,
+			"gain": 9,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch6": {
+		"name": "CH6",
+		"id": "ch6",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0.4,
+			"gain": -1,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch7": {
+		"name": "CH7",
+		"id": "ch7",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0.25,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch8": {
+		"name": "CH8",
+		"id": "ch8",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0.25,
+			"gain": 13,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch9": {
+		"name": "CH9",
+		"id": "ch9",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch10": {
+		"name": "CH10",
+		"id": "ch10",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch11": {
+		"name": "CH11",
+		"id": "ch11",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch12": {
+		"name": "CH12",
+		"id": "ch12",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch13": {
+		"name": "CH13",
+		"id": "ch13",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch14": {
+		"name": "CH14",
+		"id": "ch14",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch15": {
+		"name": "CH15",
+		"id": "ch15",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch16": {
+		"name": "CH16",
+		"id": "ch16",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch17": {
+		"name": "CH17",
+		"id": "ch17",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch18": {
+		"name": "CH18",
+		"id": "ch18",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch19": {
+		"name": "CH19",
+		"id": "ch19",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch20": {
+		"name": "CH20",
+		"id": "ch20",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch21": {
+		"name": "CH21",
+		"id": "ch21",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch22": {
+		"name": "CH22",
+		"id": "ch22",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch23": {
+		"name": "CH23",
+		"id": "ch23",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch24": {
+		"name": "CH24",
+		"id": "ch24",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch25": {
+		"name": "CH25",
+		"id": "ch25",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch26": {
+		"name": "CH26",
+		"id": "ch26",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch27": {
+		"name": "CH27",
+		"id": "ch27",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch28": {
+		"name": "CH28",
+		"id": "ch28",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch29": {
+		"name": "CH29",
+		"id": "ch29",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch30": {
+		"name": "CH30",
+		"id": "ch30",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch31": {
+		"name": "CH31",
+		"id": "ch31",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch32": {
+		"name": "CH32",
+		"id": "ch32",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch33": {
+		"name": "CH33",
+		"id": "ch33",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch34": {
+		"name": "CH34",
+		"id": "ch34",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch35": {
+		"name": "CH35",
+		"id": "ch35",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch36": {
+		"name": "CH36",
+		"id": "ch36",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch37": {
+		"name": "CH37",
+		"id": "ch37",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch38": {
+		"name": "CH38",
+		"id": "ch38",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch39": {
+		"name": "CH39",
+		"id": "ch39",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch40": {
+		"name": "CH40",
+		"id": "ch40",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch41": {
+		"name": "CH41",
+		"id": "ch41",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch42": {
+		"name": "CH42",
+		"id": "ch42",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch43": {
+		"name": "CH43",
+		"id": "ch43",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch44": {
+		"name": "CH44",
+		"id": "ch44",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch45": {
+		"name": "CH45",
+		"id": "ch45",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch46": {
+		"name": "CH46",
+		"id": "ch46",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch47": {
+		"name": "CH47",
+		"id": "ch47",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch48": {
+		"name": "CH48",
+		"id": "ch48",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch49": {
+		"name": "CH49",
+		"id": "ch49",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch50": {
+		"name": "CH50",
+		"id": "ch50",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch51": {
+		"name": "CH51",
+		"id": "ch51",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch52": {
+		"name": "CH52",
+		"id": "ch52",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch53": {
+		"name": "CH53",
+		"id": "ch53",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"ch54": {
+		"name": "CH54",
+		"id": "ch54",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"sr1": {
+		"name": "SR1",
+		"id": "sr1",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"sr2": {
+		"name": "SR2",
+		"id": "sr2",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": false,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"fxrt1": {
+		"name": "FXRT1",
+		"id": "fxrt1",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": true,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"fxrt2": {
+		"name": "FXRT2",
+		"id": "fxrt2",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": true,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"fxrt3": {
+		"name": "FXRT3",
+		"id": "fxrt3",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": true,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	},
+	"fxrt4": {
+		"name": "FXRT4",
+		"id": "fxrt4",
+		"type": "CH",
+		"master": {
+			"enabled": false,
+			"value": 0,
+			"gain": 0,
+			"hpf": {
+				"enabled": false,
+				"frequency": 0
+			},
+			"phaseInversion": false,
+			"phantomPower": true,
+			"eq": {
+				"enabled": false,
+				"bands": []
+			},
+			"dyn1": {
+				"id": "dyn1",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"dyn2": {
+				"id": "dyn2",
+				"enabled": false,
+				"threshold": 0,
+				"ratio": 0,
+				"attack": 0,
+				"release": 0,
+				"gain": 0
+			},
+			"delay": 0,
+			"pan": 0,
+			"grandMasterSends": {
+				"lr": {
+					"enabled": false,
+					"value": 0
+				},
+				"mono": {
+					"enabled": false,
+					"value": 0
+				}
+			}
+		},
+		"sendsTo": {}
+	}
+}

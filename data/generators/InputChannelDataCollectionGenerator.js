@@ -127,7 +127,7 @@ Object.values(InputChannelID).forEach((id) => {
     const channelData = {
         ...defaultChannelData,
         id,
-        name: `Channel ${id.toUpperCase()}`,
+        name: `${id.toUpperCase()}`,
         master: {
             ...defaultChannelData.master,
             phantomPower: id.startsWith("st") || id.startsWith("fxrt"),

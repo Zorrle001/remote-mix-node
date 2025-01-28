@@ -6,10 +6,14 @@
         "node": "bun --watch run Node.ts"
     },
     "devDependencies": {
-        "@types/bun": "latest"
+        "@types/bun": "latest",
+        "@types/lodash": "^4.17.14"
     },
     "peerDependencies": {
         "typescript": "^5.0.0"
     },
-    "author": "Simon M."
+    "author": "Simon M.",
+    "dependencies": {
+        "lodash": "^4.17.21"
+    }
 }

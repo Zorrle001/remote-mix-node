@@ -74,9 +74,9 @@ export enum InputChannelID {
 }
 
 export enum InputChannelType {
-    CH,
-    ST,
-    FXRT,
+    CH = "CH",
+    ST = "ST",
+    FXRT = "FXRT",
 }
 
 export type InputChannelTypeGenerator<ID extends InputChannelID> = ID extends
