@@ -10,7 +10,11 @@ import {
     WSSubscription,
 } from "./types/node/NodeTypes";
 
-import type { MixerRouting, NodeMessage } from "./types/node/NodeTypes";
+import type {
+    MixerRouting,
+    NodeMessage,
+    SessionData,
+} from "./types/node/NodeTypes";
 import type { SendBusDataCollection } from "./types/SendBusTypes";
 
 const ConnectedMixers = new Map<string, MixerRouting>();
@@ -47,7 +51,7 @@ const MixerRoutings: MixerRouting[] = [
     },
 ];
 
-const Sessions = [
+const Sessions: SessionData[] = [
     {
         uuid: "default-session",
         name: "Default Session",
@@ -133,6 +137,8 @@ const Sessions = [
                 null,
             ],
         ],
+        selectedChannel: InputChannelID.CH1,
+        activeInputChannelBank: 0,
     },
 ];
 
@@ -151,6 +157,7 @@ const server = Bun.serve({
             console.log("Opened connection");
 
             ws.subscribe(WSSubscription.GENERAL);
+            ws.subscribe(WSSubscription.DEFAULT_SESSION);
 
             ws.send(
                 JSON.stringify({
@@ -170,6 +177,7 @@ const server = Bun.serve({
             console.log(`Closed connection: ${code} ${reason}`);
 
             ws.unsubscribe(WSSubscription.GENERAL);
+            ws.unsubscribe(WSSubscription.DEFAULT_SESSION);
         },
         async message(ws, message) {
             console.log(`Received ${message}`);
@@ -293,6 +301,32 @@ const server = Bun.serve({
                             data: undefined,
                         } as NodeMessage)
                     );*/
+                } else if (msg.type === NodeMessageType.SessionDataUpdate) {
+                    const uuid = msg.data.uuid;
+                    const partial: Partial<SessionData> = msg.data.partial;
+
+                    let prevSessionData = Sessions.find((s) => s.uuid === uuid);
+                    if (!prevSessionData) {
+                        ws.send(
+                            JSON.stringify({
+                                type: NodeMessageType.SessionDataUpdate,
+                                error: true,
+                                status: 400,
+                                details: "Session with UUID not found",
+                                data: undefined,
+                            } as NodeMessage)
+                        );
+                        return;
+                    }
+
+                    // TODO: REPLACE WITH UUID SESSION
+                    ws.publish(
+                        WSSubscription.DEFAULT_SESSION,
+                        JSON.stringify(msg)
+                    );
+
+                    prevSessionData = lodash.merge(prevSessionData, partial);
+                    console.log("Updated Session Data", prevSessionData);
                 }
             } catch (error) {
                 console.error("Invalid JSON Message");

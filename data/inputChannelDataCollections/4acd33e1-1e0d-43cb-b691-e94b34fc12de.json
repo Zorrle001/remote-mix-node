@@ -5,8 +5,8 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0,
-			"gain": 9,
+			"value": 0.8,
+			"gain": 37,
 			"hpf": {
 				"enabled": false,
 				"frequency": 0
@@ -56,8 +56,8 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0,
-			"gain": 0,
+			"value": 0.75,
+			"gain": 11,
 			"hpf": {
 				"enabled": false,
 				"frequency": 0
@@ -107,8 +107,8 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0,
-			"gain": -5,
+			"value": 0.95,
+			"gain": 20,
 			"hpf": {
 				"enabled": false,
 				"frequency": 0
@@ -158,7 +158,7 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0.75,
+			"value": 1,
 			"gain": -5,
 			"hpf": {
 				"enabled": false,
@@ -209,8 +209,8 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0.8,
-			"gain": 9,
+			"value": 0.6,
+			"gain": 3,
 			"hpf": {
 				"enabled": false,
 				"frequency": 0
@@ -260,7 +260,7 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0.4,
+			"value": 0.5,
 			"gain": -1,
 			"hpf": {
 				"enabled": false,
@@ -311,7 +311,7 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0.25,
+			"value": 0.7,
 			"gain": 0,
 			"hpf": {
 				"enabled": false,
@@ -362,8 +362,8 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0.25,
-			"gain": 13,
+			"value": 0.5,
+			"gain": 3,
 			"hpf": {
 				"enabled": false,
 				"frequency": 0
@@ -413,8 +413,8 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0,
-			"gain": 0,
+			"value": 1,
+			"gain": 8,
 			"hpf": {
 				"enabled": false,
 				"frequency": 0
@@ -464,7 +464,7 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0,
+			"value": 0.25,
 			"gain": 0,
 			"hpf": {
 				"enabled": false,
@@ -515,7 +515,7 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0,
+			"value": 0.6,
 			"gain": 0,
 			"hpf": {
 				"enabled": false,
@@ -566,7 +566,7 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0,
+			"value": 1,
 			"gain": 0,
 			"hpf": {
 				"enabled": false,
@@ -617,8 +617,8 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0,
-			"gain": 0,
+			"value": 0.65,
+			"gain": 7,
 			"hpf": {
 				"enabled": false,
 				"frequency": 0
@@ -669,7 +669,7 @@
 		"master": {
 			"enabled": false,
 			"value": 0,
-			"gain": 0,
+			"gain": 45,
 			"hpf": {
 				"enabled": false,
 				"frequency": 0
@@ -719,7 +719,7 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0,
+			"value": 0.45,
 			"gain": 0,
 			"hpf": {
 				"enabled": false,
@@ -770,7 +770,7 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0,
+			"value": 0.6,
 			"gain": 0,
 			"hpf": {
 				"enabled": false,
@@ -822,7 +822,7 @@
 		"master": {
 			"enabled": false,
 			"value": 0,
-			"gain": 0,
+			"gain": 10,
 			"hpf": {
 				"enabled": false,
 				"frequency": 0
@@ -924,7 +924,7 @@
 		"master": {
 			"enabled": false,
 			"value": 0,
-			"gain": 0,
+			"gain": 39,
 			"hpf": {
 				"enabled": false,
 				"frequency": 0
@@ -975,7 +975,7 @@
 		"master": {
 			"enabled": false,
 			"value": 0,
-			"gain": 0,
+			"gain": 20,
 			"hpf": {
 				"enabled": false,
 				"frequency": 0
@@ -1077,7 +1077,7 @@
 		"master": {
 			"enabled": false,
 			"value": 0,
-			"gain": 0,
+			"gain": 14,
 			"hpf": {
 				"enabled": false,
 				"frequency": 0
@@ -1179,7 +1179,7 @@
 		"master": {
 			"enabled": false,
 			"value": 0,
-			"gain": 0,
+			"gain": 20,
 			"hpf": {
 				"enabled": false,
 				"frequency": 0
@@ -1382,7 +1382,7 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0,
+			"value": 0.35,
 			"gain": 0,
 			"hpf": {
 				"enabled": false,
@@ -1433,7 +1433,7 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0,
+			"value": 0.95,
 			"gain": 0,
 			"hpf": {
 				"enabled": false,
@@ -1484,7 +1484,7 @@
 		"type": "CH",
 		"master": {
 			"enabled": false,
-			"value": 0,
+			"value": 0.7,
 			"gain": 0,
 			"hpf": {
 				"enabled": false,
@@ -2148,7 +2148,7 @@
 		"master": {
 			"enabled": false,
 			"value": 0,
-			"gain": 0,
+			"gain": 1,
 			"hpf": {
 				"enabled": false,
 				"frequency": 0

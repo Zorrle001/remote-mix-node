@@ -1,5 +1,8 @@
+import { InputChannelID } from "../InputChannelTypes";
+import { SendBusID } from "../SendBusTypes";
 export enum WSSubscription {
     GENERAL = "general",
+    DEFAULT_SESSION = "default-session-subscription",
 }
 
 export type MixerRouting = {
@@ -15,6 +18,14 @@ export type MixerRouting = {
     localSimulation?: boolean;
 };
 
+export type SessionData = {
+    uuid: string;
+    name: string;
+    inputChannelBanks: Array<Array<InputChannelID | null>>;
+    selectedChannel: InputChannelID | SendBusID;
+    activeInputChannelBank: number;
+};
+
 export enum NodeMessageType {
     MixerConnectionsUpdate = "MixerConnectionsUpdate",
     GetAndSubscribeMixerData = "GetAndSubscribeMixerData",
@@ -22,6 +33,7 @@ export enum NodeMessageType {
     MixerDataUpdate = "MixerDataUpdate",
     GetMixerRoutings = "GetMixerRoutings",
     SessionData = "SessionData",
+    SessionDataUpdate = "SessionDataUpdate",
 }
 
 export type NodeMessage = {
